@@ -16,18 +16,18 @@ Swfit : 4.0
 ### Installing
 
 Clone the repo and 
-Double click on the ProductList.xcworkspace and open with Xcode 9.0.1 only using Swift 4.0
+Double click on the MovieList.xcworkspace and open with Xcode 9.0.1 only using Swift 4.0
 Install SwiftLint using brew or comment the script for siwftlint in the build scripts
 
 ## Running the tests
 
 Use standard Apple Xcode XC test framework to run the test 
 Use Command + U to run the rest 
-The unit test are writing inside ProductListTests.swift
+The unit test are writing inside MovieListTests.swift
 
 ### Libraries 
 
-SDWebImage is used for caching product images
+SDWebImage is used for caching movie images
 
 ### Unit Test Details
 
