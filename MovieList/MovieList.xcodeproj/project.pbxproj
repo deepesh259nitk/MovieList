@@ -13,6 +13,10 @@
 		486C3A9D1FEAC1AE0028331C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486C3A9C1FEAC1AE0028331C /* Assets.xcassets */; };
 		486C3AA01FEAC1AE0028331C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486C3A9E1FEAC1AE0028331C /* LaunchScreen.storyboard */; };
 		486C3AAB1FEAC1AE0028331C /* MovieListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C3AAA1FEAC1AE0028331C /* MovieListTests.swift */; };
+		486C3AC21FEAC2540028331C /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 486C3ABE1FEAC2540028331C /* collection.json */; };
+		486C3AC31FEAC2540028331C /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 486C3ABF1FEAC2540028331C /* categories.json */; };
+		486C3AC41FEAC2540028331C /* movieDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 486C3AC01FEAC2540028331C /* movieDetails.json */; };
+		486C3AC51FEAC2540028331C /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 486C3AC11FEAC2540028331C /* movies.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		486C3AA61FEAC1AE0028331C /* MovieListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		486C3AAA1FEAC1AE0028331C /* MovieListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTests.swift; sourceTree = "<group>"; };
 		486C3AAC1FEAC1AE0028331C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486C3ABE1FEAC2540028331C /* collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collection.json; sourceTree = "<group>"; };
+		486C3ABF1FEAC2540028331C /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
+		486C3AC01FEAC2540028331C /* movieDetails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movieDetails.json; sourceTree = "<group>"; };
+		486C3AC11FEAC2540028331C /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 		486C3A891FEAC1AE0028331C = {
 			isa = PBXGroup;
 			children = (
+				486C3AB51FEAC2180028331C /* Resources */,
 				486C3A941FEAC1AE0028331C /* MovieList */,
 				486C3AA91FEAC1AE0028331C /* MovieListTests */,
 				486C3A931FEAC1AE0028331C /* Products */,
@@ -94,6 +103,17 @@
 				486C3AAC1FEAC1AE0028331C /* Info.plist */,
 			);
 			path = MovieListTests;
+			sourceTree = "<group>";
+		};
+		486C3AB51FEAC2180028331C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				486C3ABF1FEAC2540028331C /* categories.json */,
+				486C3ABE1FEAC2540028331C /* collection.json */,
+				486C3AC01FEAC2540028331C /* movieDetails.json */,
+				486C3AC11FEAC2540028331C /* movies.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +200,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				486C3AA01FEAC1AE0028331C /* LaunchScreen.storyboard in Resources */,
+				486C3AC41FEAC2540028331C /* movieDetails.json in Resources */,
 				486C3A9D1FEAC1AE0028331C /* Assets.xcassets in Resources */,
 				486C3A9B1FEAC1AE0028331C /* Main.storyboard in Resources */,
+				486C3AC31FEAC2540028331C /* categories.json in Resources */,
+				486C3AC51FEAC2540028331C /* movies.json in Resources */,
+				486C3AC21FEAC2540028331C /* collection.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
