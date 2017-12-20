@@ -76,6 +76,11 @@ Xcode 9.0.1
 ## Versioning
 2.0
 
+## ScreenShots
+![image](https://github.com/deepesh259nitk/MovieList/blob/master/MovieList/ScreenShots/MovieList1.png)
+![image](https://github.com/deepesh259nitk/MovieList/blob/master/MovieList/ScreenShots/MovieList2.png)
+![image](https://github.com/deepesh259nitk/MovieList/blob/master/MovieList/ScreenShots/MovieList3.png)
+![image](https://github.com/deepesh259nitk/MovieList/blob/master/MovieList/ScreenShots/MovieList4.png)
 ## Authors
 
 djrecker
